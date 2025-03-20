@@ -1,0 +1,14 @@
+{
+    "http": {
+        "method": "GET",
+        "timeout": 10,
+        "headers": {
+            "User-Agent": "VulnScanner/1.0",
+            "Accept": "text/html"
+        }
+    },
+    "sqli": {
+        "enable": true,
+        "response_diff_threshold": 0.8
+    }
+}
